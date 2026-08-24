@@ -1,0 +1,67 @@
+{
+  "_comment": "Hindi UI strings. Server-side messages are looked up by key and formatted with params, so no English string is ever machine-translated at request time. Any key missing here falls back to the English text in i18n.py.",
+
+  "messages": {
+    "empty_list": "आपकी सूची खाली है। कहकर देखें \"दूध जोड़ो\"।",
+    "no_suggestions": "अभी कोई सुझाव नहीं है।",
+    "not_understood": "समझ नहीं आया।",
+    "low_confidence": "यह समझ नहीं आया — कृपया दूसरे शब्दों में कहें।",
+    "unknown_unit": "यह इकाई पहचानी नहीं गई।",
+    "unit_not_allowed": "{item} के लिए यह इकाई मान्य नहीं है।",
+    "nothing_to_add": "समझ नहीं आया कि क्या जोड़ना है।",
+    "nothing_to_remove": "समझ नहीं आया कि क्या हटाना है।",
+    "negative_ignored": "ऋणात्मक मात्रा अनदेखी की गई।",
+    "unit_conflict": "टकराव: {item} सूची में दूसरी इकाई के साथ मौजूद है।",
+    "limit_reached": "सीमा पूरी: {item} और नहीं जोड़ा जा सकता (अधिकतम {max})।",
+    "added": "{item} जोड़ा गया",
+    "removed": "{item} हटाया गया",
+    "removed_qty": "{qty} {item} हटाया गया",
+    "not_in_list": "{item} सूची में नहीं मिला।",
+    "list_cleared": "सूची साफ़ कर दी गई",
+    "search_none": "{item} के लिए कोई उत्पाद नहीं मिला।",
+    "search_found": "{count} उत्पाद मिले",
+    "search_approx": "बिल्कुल मेल नहीं मिला — मिलते-जुलते उत्पाद दिखाए जा रहे हैं।",
+    "shopping_list": "खरीदारी की सूची",
+    "list_is_empty": "खरीदारी की सूची खाली है"
+  },
+
+  "reasons": {
+    "frequent": "अक्सर खरीदा जाता है",
+    "recent": "हाल ही में खरीदा गया",
+    "regular": "आपकी नियमित खरीद"
+  },
+
+  "categories": {
+    "Bakery": "बेकरी",
+    "Beverages": "पेय पदार्थ",
+    "Dairy": "डेयरी",
+    "Dry Fruits": "सूखे मेवे",
+    "Household": "घरेलू सामान",
+    "Meat & Seafood": "मांस और समुद्री भोजन",
+    "Other": "अन्य",
+    "Pantry": "रसोई का सामान",
+    "Personal Care": "व्यक्तिगत देखभाल",
+    "Produce": "फल और सब्ज़ियाँ"
+  },
+
+  "ui": {
+    "orb_idle": "बोलने के लिए ऑर्ब दबाएँ, या नीचे लिखें",
+    "orb_listening": "सुन रहा हूँ…",
+    "orb_processing": "सोच रहा हूँ…",
+    "orb_unsupported": "यहाँ आवाज़ इनपुट उपलब्ध नहीं है — नीचे टाइप करें",
+    "panel_list": "खरीदारी की सूची",
+    "panel_suggestions": "आपके लिए सुझाव",
+    "panel_search": "खोज के परिणाम",
+    "btn_clear": "साफ़ करें",
+    "btn_download": "डाउनलोड",
+    "btn_send": "भेजें",
+    "btn_add": "जोड़ें",
+    "btn_remove": "हटाएँ",
+    "input_placeholder": "कमांड लिखें, जैसे: दो किलो आलू जोड़ो",
+    "confirm_clear": "क्या आप पूरी सूची साफ़ करना चाहते हैं?",
+    "already_empty": "आपकी सूची पहले से खाली है",
+    "backend_unreachable": "सर्वर से संपर्क नहीं हो सका",
+    "mic_error": "माइक त्रुटि",
+    "trace_title": "यह कैसे समझा गया"
+  }
+}
