@@ -1,0 +1,29 @@
+{
+  "_comment": "Container units, kept separate from sizes.json because they are only matched when a number precedes them. unit_restrictions.json whitelists 'bottle', 'can', 'box', 'tube', 'loaf', 'roll' and 'carton', but none of them existed in sizes.json, so those whitelist entries could never be reached. Matching them bare would be unsafe: 'can' appears in 'can you add milk', which is one of the model's own ADD training templates. Requiring a preceding quantity ('2 cans of soup') removes the ambiguity. Note that 'packet' and 'sachet' both canonicalise to 'pack': the original data used 'packet' for Dairy and Pantry but 'pack' for Bakery and Beverages, so whether '3 packs of pasta' was accepted depended on which synonym the user happened to say.",
+  "units": {
+    "bottle": "bottle",
+    "bottles": "bottle",
+    "can": "can",
+    "cans": "can",
+    "tin": "can",
+    "tins": "can",
+    "box": "box",
+    "boxes": "box",
+    "packet": "pack",
+    "packets": "pack",
+    "sachet": "pack",
+    "sachets": "pack",
+    "tube": "tube",
+    "tubes": "tube",
+    "loaf": "loaf",
+    "loaves": "loaf",
+    "roll": "roll",
+    "rolls": "roll",
+    "carton": "carton",
+    "cartons": "carton",
+    "jar": "jar",
+    "jars": "jar",
+    "bag": "bag",
+    "bags": "bag"
+  }
+}
