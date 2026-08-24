@@ -1,0 +1,9 @@
+{
+  "_comment": "A blacklist, not a whitelist. The previous version listed the units each category *permitted*, which meant every unit somebody forgot to list became an error: 'add 2 bottles of milk', 'add a carton of eggs', 'add 1 litre of olive oil', 'add 5 kg flour' and 'add 1 bottle of detergent' were all rejected by the shipped app. Mass units (kg, g, lb, oz) and container units (pack, box, bottle, can, jar, carton, bag, piece, dozen, ...) are now allowed everywhere, since almost anything can be sold by weight or in a container. Only volume is category-sensitive: a dry good has no meaningful measure in litres, which is the 'add 2 litres of bread' case the guard existed for in the first place. Household and Personal Care are absent deliberately - detergent and shampoo really do come in millilitres.",
+  "forbidden_category_units": {
+    "Bakery": ["l", "ml"],
+    "Produce": ["l", "ml"],
+    "Meat & Seafood": ["l", "ml"],
+    "Dry Fruits": ["l", "ml"]
+  }
+}
